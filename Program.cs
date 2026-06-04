@@ -1,8 +1,13 @@
 ﻿using System;
 
-abstract class Shape
+abstract class Shape : IComparable<Shape>
 {
     public abstract double getArea();
+    
+    public int CompareTo(Shape other)
+    {
+        return this.getArea().CompareTo(other.getArea());
+    }
     
     public override string ToString()
     {
@@ -74,6 +79,7 @@ class Cube : ThreeDimensionalShape
         return edge*edge*edge;
     }
 }
+
 class Program
 {
     static void Main(string[] args)
@@ -92,5 +98,21 @@ class Program
        Console.WriteLine(cb.ToString());
        Console.WriteLine(cb.getArea());
        Console.WriteLine(cb.getVolume());
+       Console.WriteLine("------------------");
+
+       Shape[] shapes = new Shape[]
+       {
+           new Circle(5),
+           new Square(3),
+           new Cube(6.3),
+           new Sphere(7)
+       };
+       Array.Sort(shapes);
+
+        foreach (Shape a in shapes)
+        {
+            Console.WriteLine(a.ToString() + " - " + a.getArea());
+        }
     }
 }
+
