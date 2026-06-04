@@ -1,0 +1,14 @@
+/Users/zeynep/Shapes/bin/Debug/net10.0/Shapes
+/Users/zeynep/Shapes/bin/Debug/net10.0/Shapes.deps.json
+/Users/zeynep/Shapes/bin/Debug/net10.0/Shapes.runtimeconfig.json
+/Users/zeynep/Shapes/bin/Debug/net10.0/Shapes.dll
+/Users/zeynep/Shapes/bin/Debug/net10.0/Shapes.pdb
+/Users/zeynep/Shapes/obj/Debug/net10.0/Shapes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zeynep/Shapes/obj/Debug/net10.0/Shapes.AssemblyInfoInputs.cache
+/Users/zeynep/Shapes/obj/Debug/net10.0/Shapes.AssemblyInfo.cs
+/Users/zeynep/Shapes/obj/Debug/net10.0/Shapes.csproj.CoreCompileInputs.cache
+/Users/zeynep/Shapes/obj/Debug/net10.0/Shapes.dll
+/Users/zeynep/Shapes/obj/Debug/net10.0/refint/Shapes.dll
+/Users/zeynep/Shapes/obj/Debug/net10.0/Shapes.pdb
+/Users/zeynep/Shapes/obj/Debug/net10.0/Shapes.genruntimeconfig.cache
+/Users/zeynep/Shapes/obj/Debug/net10.0/ref/Shapes.dll
